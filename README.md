@@ -1053,8 +1053,11 @@ Static Website for S3 on testbucket.
 - [DockerHub LocalStack](https://hub.docker.com/r/localstack/localstack)
 - [Configuration of LocalStack](https://docs.localstack.cloud/references/configuration/)
 - [Coverage of LocalStack](https://docs.localstack.cloud/references/coverage/)
-- [LocalStack Workshop](https://www.youtube.com/watch?v=SYCeM-Q6nRs)
+- [Localstack-feature-coverage](https://docs.localstack.cloud/user-guide/aws/feature-coverage/)
+- [Terraform-integrations](https://docs.localstack.cloud/user-guide/integrations/terraform/)
 - [Static-website](https://docs.localstack.cloud/tutorials/s3-static-website-terraform/)
+- [Localstack-terraform-test](https://github.com/localstack/localstack-terraform-test)
+- [LocalStack Workshop](https://www.youtube.com/watch?v=SYCeM-Q6nRs)
 
 
 Remember, LocalStack is a great tool for local development and testing, but it might not perfectly replicate all AWS behaviors. Testing thoroughly in both environments is crucial before deploying to production AWS services. LocalStack has gained popularity among developers due to its ability to speed up development cycles, improve testing reliability, and reduce the complexities associated with cloud development.
