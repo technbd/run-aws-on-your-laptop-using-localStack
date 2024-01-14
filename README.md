@@ -601,6 +601,13 @@ CONTAINER ID   IMAGE                   COMMAND                  CREATED         
 ```
 
 ```
+curl http://localhost:4566/_localstack/health
+
+curl http://localhost:4566/_localstack/info
+```
+
+
+```
 docker logs -f localstack
 ```
 
@@ -643,6 +650,11 @@ cat ~/.aws/config
 
 aws configure list
 
+```
+
+
+```
+aws --endpoint-url=http://localhost:4566 stepfunctions list-state-machines
 ```
 
 
@@ -860,6 +872,11 @@ pip3.8 install awscli-local
 awslocal -h
 
 ```
+
+```
+awslocal stepfunctions list-state-machines
+```
+
 
 ### Creating S3 bucket:
 
